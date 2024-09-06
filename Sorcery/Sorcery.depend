@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1721998506 source:c:\users\thoma\onedrive\documents\sorcery\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	"Game.h"
+	"globals.h"
+
+1721995578 c:\users\thoma\onedrive\documents\sorcery\game.h
+	"Player.h"
+	"CardDatabase.h"
+	<string>
+
+1721998230 c:\users\thoma\onedrive\documents\sorcery\player.h
+	<vector>
+	<string>
+	"Card.h"
+	"Minion.h"
+	"CardDatabase.h"
+
+1721999595 c:\users\thoma\onedrive\documents\sorcery\card.h
+	<string>
+
+1721999546 source:c:\users\thoma\onedrive\documents\sorcery\card.cpp
+	"Card.h"
+
+1721999661 source:c:\users\thoma\onedrive\documents\sorcery\minion.cpp
+	"Minion.h"
+	"Player.h"
+	<iostream>
+
+1721995578 c:\users\thoma\onedrive\documents\sorcery\minion.h
+	"Card.h"
+
+1721998812 source:c:\users\thoma\onedrive\documents\sorcery\player.cpp
+	"Player.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<random>
+	<chrono>
+	<algorithm>
+	"globals.h"
+
+1721996904 source:c:\users\thoma\onedrive\documents\sorcery\game.cpp
+	"Game.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	"globals.h"
+
+1721999849 c:\users\thoma\onedrive\documents\sorcery\carddatabase.h
+	<unordered_map>
+	<string>
+	"Card.h"
+
+1721995714 source:c:\users\thoma\onedrive\documents\sorcery\carddatabase.cpp
+	"CardDatabase.h"
+	"Minion.h"
+	"Spell.h"
+
+1721916085 c:\users\thoma\onedrive\documents\sorcery\spell.h
+	"Card.h"
+
+1721978322 source:c:\users\thoma\onedrive\documents\sorcery\spell.cpp
+	"Spell.h"
+	"Player.h"
+	"Minion.h"
+	<iostream>
+
+1721999849 source:c:\users\thoma\onedrive\documents\sorcery\globals.cpp
+	"globals.h"
+
+1721995396 c:\users\thoma\onedrive\documents\sorcery\globals.h
+
